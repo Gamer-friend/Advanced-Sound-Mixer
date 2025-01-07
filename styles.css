@@ -1,0 +1,14 @@
+body {
+    background-color: #000; /* Black background */
+    color: #00ff00; /* Green text */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for terminal look */
+    padding: 20px; /* Padding around the body */
+}
+
+.terminal {
+    border: 1px solid #00ff00; /* Green border around the terminal */
+    padding: 10px; /* Padding inside the terminal */
+    height: 300px; /* Fixed height for the terminal */
+    overflow-y: auto; /* Scroll if content overflows */
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
